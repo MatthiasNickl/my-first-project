@@ -11,6 +11,10 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Note
+
+This are some excercises from Data Science Professional Certificate provided by HarvardX via edX (Prof. Rafael A. Irizarry)
+
 ## Introduction
 
 This is a report on the height density of males and females.
