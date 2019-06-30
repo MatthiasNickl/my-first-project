@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Note
 
-This are some excercises from Data Science Professional Certificate provided by HarvardX via edX (Prof. Rafael A. Irizarry)
+These are some excercises from Data Science Professional Certificate provided by HarvardX via edX (Prof. Rafael A. Irizarry)
 
 ## Introduction
 
