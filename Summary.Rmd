@@ -1,0 +1,39 @@
+---
+title: "First Trials with Markdown"
+author: "Matthias Nickl"
+date: "`r format(Sys.Date())`"
+output: 
+  pdf_document: 
+    keep_tex: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+This is a report on the height density of males and females.
+
+We are going to use the following libraries:
+
+```{r message=FALSE}
+library(tidyverse)
+library(dslabs)
+```
+
+And we use the following data sets:
+
+```{r}
+data(heights)
+```
+
+We generate the plot with the following code:
+
+```{r density-plot}
+heights %>% ggplot(aes(height, fill = sex)) +
+  geom_density(alpha = 0.5)
+```
+
+inline equation: $$sd = \sqrt{\frac{1}{\sigma^2 + \tau^2}}$$
+
