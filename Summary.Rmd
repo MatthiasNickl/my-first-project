@@ -41,3 +41,7 @@ heights %>% ggplot(aes(height, fill = sex)) +
 
 inline equation: $$sd = \sqrt{\frac{1}{\sigma^2 + \tau^2}}$$
 
+```{bash}
+ls
+```
+
